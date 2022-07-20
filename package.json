@@ -1,0 +1,32 @@
+{
+  "name": "bureaucracy_battler",
+  "version": "1.0.0",
+  "description": "A mailer app to automate the resending of emails on a persistent basis to government agencies",
+  "main": "server.js",
+  "scripts": {
+    "start": "server.js",
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marksist300/bureaucracy_battler.git"
+  },
+  "keywords": [
+    "Automated",
+    "emailer",
+    "app/scheduler"
+  ],
+  "author": "Mark Linn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marksist300/bureaucracy_battler/issues"
+  },
+  "homepage": "https://github.com/marksist300/bureaucracy_battler#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "nodemailer": "^6.7.7"
+  }
+}
