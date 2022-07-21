@@ -73,7 +73,7 @@ app.post("/login", (req,res)=>{
         // Enable incremental authorization. Recommended as a best practice.
     include_granted_scopes: true
     });
-    console.log('In progress...')
+    console.log('In progress...', res.body)
     res.redirect(authorizationUrl);
 })
 
